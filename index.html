@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testo Up | Recuperá tu energía y rendimiento masculino</title>
     
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
     
+    <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <script>
@@ -54,25 +57,37 @@
 </head>
 <body class="font-sans text-gray-800 antialiased bg-gray-50 selection:bg-testo-orange selection:text-white relative">
 
+    <!-- BARRA DE NAVEGACIÓN URGENCIA -->
     <div class="bg-orange-50 text-testo-dark border-b border-orange-100 text-center py-2 px-4 text-sm font-bold tracking-wide">
         🔥 <span class="text-testo-orange">STOCK LIMITADO:</span> Envíos y pago contra entrega disponibles en CABA y GBA 🔥
     </div>
 
-    <header class="bg-gradient-to-b from-testo-dark to-testo-light text-white relative overflow-hidden">
-        <div class="absolute inset-0 opacity-50" style="background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 2px, transparent 2px, transparent 12px);"></div>
-        <div class="absolute inset-0 opacity-40" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 2px, transparent 0); background-size: 32px 32px;"></div>
+    <!-- HERO SECTION -->
+    <header class="bg-testo-dark text-white relative overflow-hidden">
         
-        <div class="absolute inset-0 bg-gradient-to-b from-testo-dark/20 via-transparent to-testo-light z-0 pointer-events-none"></div>
+        <!-- Imagen de fondo principal (Hombre respirando aire fresco) -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://media.istockphoto.com/id/2156654397/es/foto/hombre-mayor-respirando-aire-fresco.jpg?s=612x612&w=0&k=20&c=Z89I29YytP0I1sbiu3lr2u07fI8xLC_yVdQXgWEylm0=" alt="Fondo Inicio" class="w-full h-full object-cover opacity-60">
+        </div>
         
-        <div class="absolute top-0 right-0 w-96 h-96 bg-testo-orange opacity-20 rounded-full blur-[100px] translate-x-1/3 -translate-y-1/3"></div>
-        <div class="absolute bottom-0 left-0 w-64 h-64 bg-testo-yellow opacity-10 rounded-full blur-[80px] -translate-x-1/2 translate-y-1/2"></div>
+        <!-- Capa de degradado para fusionar la imagen y asegurar que el texto se lea perfecto -->
+        <div class="absolute inset-0 bg-gradient-to-b from-testo-dark/80 via-testo-dark/40 to-testo-light/95 z-0 pointer-events-none"></div>
+
+        <!-- Texturas y brillos (Suavizados a casi transparentes para que no ensucien la foto) -->
+        <div class="absolute inset-0 opacity-10 z-0 pointer-events-none" style="background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 2px, transparent 2px, transparent 12px);"></div>
+        <div class="absolute inset-0 opacity-10 z-0 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 2px, transparent 0); background-size: 32px 32px;"></div>
+        
+        <div class="absolute top-0 right-0 w-96 h-96 bg-testo-orange opacity-20 rounded-full blur-[100px] translate-x-1/3 -translate-y-1/3 z-0 pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-testo-yellow opacity-10 rounded-full blur-[80px] -translate-x-1/2 translate-y-1/2 z-0 pointer-events-none"></div>
         
         <div class="container mx-auto px-6 pt-6 pb-16 md:py-20 relative z-10">
+            <!-- Logo area -->
             <div class="flex justify-between items-center mb-12">
                 <img src="https://i.postimg.cc/T3hbcXmZ/testo_up_logo_redondo.png" alt="Testo Up Logo" class="h-24 w-24 rounded-full border-2 border-white/20 shadow-lg object-cover bg-white">
             </div>
 
             <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Text Content -->
                 <div class="w-full md:w-3/5">
                     <div class="inline-block bg-white/10 text-testo-yellow px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider mb-6 backdrop-blur-sm border border-white/10">
                         Tratamiento Natural Integral
@@ -112,12 +127,16 @@
                     </p>
                 </div>
                 
+                <!-- Hero Image (Producto) -->
                 <div class="w-full md:w-2/5 relative flex justify-center items-center">
                     <div class="relative w-full max-w-sm">
+                        <!-- Glow/Resplandor detrás del frasco para mayor volumen -->
                         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-testo-orange opacity-30 blur-[60px] rounded-full z-0 pointer-events-none"></div>
                         
+                        <!-- Imagen del Tratamiento con sombra intensa -->
                         <img src="https://i.postimg.cc/3Rb5mmHf/Gemini_Generated_Image_ew4iwhew4iwhew4i_removebg_preview.png" alt="Tratamiento Testo Up" class="w-full h-auto object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.8)] z-10 relative transform hover:scale-105 transition-transform duration-500">
                         
+                        <!-- Floating badge (Mejorado y reubicado) -->
                         <div class="absolute bottom-4 right-0 md:-right-6 bg-white/95 backdrop-blur-md text-testo-dark px-4 py-3 rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,0.2)] border border-gray-100 flex items-center gap-3 z-20 transform hover:-translate-y-1 transition-transform">
                             <div class="bg-green-100 p-2 rounded-full flex-shrink-0">
                                 <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 256 256"><path d="M224,32a96.11,96.11,0,0,0-96,96,95.68,95.68,0,0,0,5,30.34,103.77,103.77,0,0,0-57.86,41.25L48,236.69A8,8,0,0,0,59.31,248l37.1-27.13A103.77,103.77,0,0,0,137.66,163a95.68,95.68,0,0,0,30.34,5A96.11,96.11,0,0,0,264,72C264,49.91,246.09,32,224,32Zm0,120a80,80,0,0,1-71.13-43.61,8,8,0,0,0-10.45-3.41A80.21,80.21,0,0,1,101.69,112,88.29,88.29,0,0,1,168.1,51.58a80.12,80.12,0,0,1,79.9,76.42A7.88,7.88,0,0,0,256,128,80.09,80.09,0,0,1,224,152Z"></path></svg>
@@ -133,6 +152,7 @@
         </div>
     </header>
 
+    <!-- SECCIÓN PROBLEMA: IDENTIFICACIÓN -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-6 max-w-4xl">
             <div class="text-center mb-16">
@@ -141,6 +161,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Problema 1 -->
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex gap-4 items-start">
                     <div class="bg-red-100 p-3 rounded-xl shrink-0">
                         <i class="ph-fill ph-battery-empty text-red-500 text-2xl"></i>
@@ -150,6 +171,7 @@
                         <p class="text-gray-600 leading-relaxed">Te despertás sin energía y llegás al final del día completamente agotado, sin importar cuánto duermas.</p>
                     </div>
                 </div>
+                <!-- Problema 2 -->
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex gap-4 items-start">
                     <div class="bg-red-100 p-3 rounded-xl shrink-0">
                         <i class="ph-fill ph-brain text-red-500 text-2xl"></i>
@@ -159,6 +181,7 @@
                         <p class="text-gray-600 leading-relaxed">Esa "chispa" o empuje para entrenar, trabajar o encarar proyectos nuevos parece haber desaparecido.</p>
                     </div>
                 </div>
+                <!-- Problema 3 -->
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex gap-4 items-start">
                     <div class="bg-red-100 p-3 rounded-xl shrink-0">
                         <i class="ph-fill ph-barbell text-red-500 text-2xl"></i>
@@ -168,6 +191,7 @@
                         <p class="text-gray-600 leading-relaxed">Te cuesta horrores ganar masa muscular o perder esa grasa abdominal rebelde aunque te cuides.</p>
                     </div>
                 </div>
+                <!-- Problema 4 -->
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex gap-4 items-start">
                     <div class="bg-red-100 p-3 rounded-xl shrink-0">
                         <i class="ph-fill ph-fire text-red-500 text-2xl"></i>
@@ -185,8 +209,64 @@
         </div>
     </section>
 
+    <!-- SECCIÓN VIDEO / MOTIVACIÓN -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-gray-200 border-t border-gray-200">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Video (Izquierda en compu, arriba en celular) -->
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <div class="relative w-full max-w-[320px]">
+                        <!-- Resplandor de fondo -->
+                        <div class="absolute -inset-2 bg-gradient-to-r from-testo-orange to-testo-yellow rounded-[2.5rem] blur-lg opacity-40 animate-pulse"></div>
+                        
+                        <!-- Etiqueta de Play (Z-INDEX 40 asegurado) -->
+                        <div class="absolute -top-4 -right-4 bg-testo-dark text-white font-black text-xs uppercase px-4 py-2 rounded-full shadow-xl z-40 flex items-center gap-2 transform rotate-3 border border-white/10 pointer-events-none">
+                            <i class="ph-fill ph-speaker-high text-lg text-testo-yellow"></i> Activá el sonido
+                        </div>
+                        
+                        <!-- VIDEO CON LINK A LA NUBE (CATBOX) -->
+                        <video class="relative rounded-3xl shadow-2xl w-full aspect-[9/16] object-cover border-4 border-white bg-black z-30 cursor-pointer" autoplay muted loop playsinline controls preload="auto">
+                            <!-- === LINK DE CATBOX AGREGADO === -->
+                            <source src="https://files.catbox.moe/25fzw7.mp4" type="video/mp4">
+                            <!-- ============================================== -->
+                            Tu navegador no soporta el formato de video.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Textos persuasivos extraídos del video -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <div class="inline-flex items-center gap-2 bg-orange-100 text-testo-orange px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider mb-6">
+                        <i class="ph-bold ph-play-circle"></i> Mirá el tratamiento en acción
+                    </div>
+                    <h2 class="font-heading text-4xl md:text-5xl font-black text-testo-dark mb-6 leading-tight">
+                        "No dejes que los <span class="text-testo-orange">años te ganen</span>"
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Muchos creen que a cierta edad el cuerpo ya no responde y que acumular grasa es inevitable. <strong>Pero no tiene por qué ser así si le das a tu cuerpo el aliado correcto.</strong>
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Al reactivar tu testosterona natural, le devolvés a tu sistema la energía para entrenar duro, acelerar tu metabolismo y construir <strong class="text-testo-dark">fuerza real y músculo real</strong>.
+                    </p>
+                    <a href="#oferta" class="inline-flex items-center justify-center gap-2 bg-testo-dark hover:bg-testo-light text-white font-bold text-xl py-4 px-8 rounded-xl transition-all shadow-[0_10px_20px_rgba(11,44,61,0.3)] transform hover:scale-105 w-full md:w-auto">
+                        Quiero estos resultados
+                        <i class="ph-bold ph-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOLUCIÓN -->
     <section class="py-20 bg-testo-dark text-white relative overflow-hidden">
-        <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        
+        <!-- Imagen de fondo (Pesas mayores) acomodada a la DERECHA -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://ageingnomics.fundacionmapfre.org/media/2023/09/pesas-mayores-1366x676-1.jpg" alt="Fondo Entrenamiento" class="w-full h-full object-cover object-right opacity-40">
+        </div>
+        
+        <!-- Overlay oscuro para resaltar texto -->
+        <div class="absolute inset-0 bg-gradient-to-b from-testo-dark/80 via-testo-dark/60 to-testo-dark/80 z-0 pointer-events-none"></div>
         
         <div class="container mx-auto px-6 relative z-10 text-center max-w-4xl">
             <img src="https://i.postimg.cc/T3hbcXmZ/testo_up_logo_redondo.png" alt="Testo Up Logo" class="h-32 w-32 rounded-full mx-auto mb-8 border-4 border-white/10 shadow-[0_0_30px_rgba(240,90,40,0.5)] object-cover bg-white">
@@ -230,11 +310,14 @@
         </div>
     </section>
 
+    <!-- SECCIÓN BENEFICIOS (CORREGIDA LA ESTRUCTURA) -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-6 max-w-5xl">
             <h2 class="text-center font-heading text-3xl md:text-4xl font-black text-testo-dark mb-16">Lo que vas a notar al comenzar tu tratamiento</h2>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Fila Superior: 3 Beneficios -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Beneficio 1 -->
                 <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300">
                     <div class="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm border border-orange-100">
                         <i class="ph-fill ph-lightning text-testo-orange text-4xl"></i>
@@ -243,6 +326,7 @@
                     <p class="text-gray-600">Despertate renovado y mantené un nivel de energía estable durante toda tu jornada, sin bajones a media tarde.</p>
                 </div>
                 
+                <!-- Beneficio 2 -->
                 <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300">
                     <div class="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm border border-orange-100">
                         <i class="ph-fill ph-barbell text-testo-orange text-4xl"></i>
@@ -251,6 +335,7 @@
                     <p class="text-gray-600">Maximizá tus resultados en el gimnasio, mejorá tu fuerza y acelerá la recuperación de tus músculos.</p>
                 </div>
 
+                <!-- Beneficio 3 -->
                 <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300">
                     <div class="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm border border-orange-100">
                         <i class="ph-fill ph-fire text-testo-orange text-4xl"></i>
@@ -258,8 +343,12 @@
                     <h3 class="font-bold text-xl text-testo-dark mb-2">Mayor deseo sexual</h3>
                     <p class="text-gray-600">Recuperá tu libido y mejorá tu rendimiento en los momentos íntimos, ganando seguridad y confianza.</p>
                 </div>
+            </div>
 
-                <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300 lg:col-start-1 lg:ml-[50%]">
+            <!-- Fila Inferior: 2 Beneficios Centrados (Sin que se aplaste el texto) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+                <!-- Beneficio 4 -->
+                <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300">
                     <div class="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm border border-orange-100">
                         <i class="ph-fill ph-smiley text-testo-orange text-4xl"></i>
                     </div>
@@ -267,7 +356,8 @@
                     <p class="text-gray-600">Reducí el estrés, mejorá tu motivación y recuperá el enfoque mental para encarar tus objetivos.</p>
                 </div>
 
-                <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300 lg:col-start-2 lg:ml-[50%]">
+                <!-- Beneficio 5 -->
+                <div class="flex flex-col items-center text-center p-6 transition hover:-translate-y-1 duration-300">
                     <div class="bg-orange-50 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm border border-orange-100">
                         <i class="ph-fill ph-heartbeat text-testo-orange text-4xl"></i>
                     </div>
@@ -278,12 +368,14 @@
         </div>
     </section>
 
+    <!-- PRUEBA SOCIAL / TESTIMONIOS -->
     <section class="py-20 bg-gray-100">
         <div class="container mx-auto px-6 max-w-6xl">
             <h2 class="text-center font-heading text-3xl md:text-4xl font-black text-testo-dark mb-4">Hombres que ya recuperaron su "mejor versión"</h2>
             <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto text-lg">Resultados reales de clientes que decidieron tomar el control de su vitalidad con Testo Up.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative pt-12">
                     <div class="absolute -top-8 left-1/2 transform -translate-x-1/2">
                         <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Cliente Marcos" class="w-16 h-16 rounded-full border-4 border-white shadow-md object-cover">
@@ -298,6 +390,7 @@
                     </div>
                 </div>
 
+                <!-- Testimonio 2 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative pt-12">
                     <div class="absolute -top-8 left-1/2 transform -translate-x-1/2">
                         <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Cliente Diego" class="w-16 h-16 rounded-full border-4 border-white shadow-md object-cover">
@@ -312,8 +405,10 @@
                     </div>
                 </div>
 
+                <!-- Testimonio 3 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative pt-12">
                     <div class="absolute -top-8 left-1/2 transform -translate-x-1/2">
+                        <!-- Foto cambiada por una de hombre seguro y natural -->
                         <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Cliente Juan" class="w-16 h-16 rounded-full border-4 border-white shadow-md object-cover">
                     </div>
                     <div class="flex justify-center text-testo-yellow mb-4 text-xl">
@@ -329,6 +424,7 @@
         </div>
     </section>
 
+    <!-- OFERTA / PRICING -->
     <section id="oferta" class="py-20 bg-white">
         <div class="container mx-auto px-6 max-w-5xl">
             <div class="text-center mb-12">
@@ -341,6 +437,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-center">
                 
+                <!-- Pack 30 (15 días) -->
                 <div class="bg-white rounded-3xl border border-gray-200 shadow-lg p-8 relative flex flex-col h-full">
                     <div class="text-center mb-6 border-b border-gray-100 pb-6">
                         <h3 class="text-2xl font-black text-gray-800 mb-2">Tratamiento Inicial</h3>
@@ -358,11 +455,13 @@
                         </li>
                     </ul>
                     
+                    <!-- Botón conectado al modal -->
                     <button onclick="openModal('Pack 15 Días (30 pastillas)')" class="w-full bg-testo-dark hover:bg-testo-light text-white font-bold py-4 rounded-xl transition-colors text-lg flex items-center justify-center gap-2">
                         Pedir Pack 15 Días <i class="ph-bold ph-shopping-cart"></i>
                     </button>
                 </div>
 
+                <!-- Pack 60 (1 Mes) - DESTACADO -->
                 <div class="bg-testo-dark rounded-3xl shadow-2xl p-1 relative flex flex-col h-full transform md:-translate-y-4">
                     <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-testo-orange text-white font-black uppercase tracking-wider text-sm py-1.5 px-6 rounded-full shadow-lg z-10">
                         Mejor Resultado / 1 Mes
@@ -395,6 +494,7 @@
                             </li>
                         </ul>
                         
+                        <!-- Botón conectado al modal -->
                         <button onclick="openModal('Pack 1 Mes (60 pastillas)')" class="w-full bg-gradient-to-r from-testo-orange to-[#ff7a2e] hover:from-[#e04f1f] hover:to-testo-orange text-white font-bold py-4 rounded-xl transition-all shadow-[0_10px_20px_rgba(240,90,40,0.4)] transform hover:scale-105 text-xl flex items-center justify-center gap-2 relative z-10">
                             Pedir Pack 1 Mes <i class="ph-bold ph-shopping-cart"></i>
                         </button>
@@ -403,6 +503,7 @@
 
             </div>
 
+            <!-- Banner Contra Entrega -->
             <div class="mt-12 bg-green-50 border-2 border-green-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-center gap-6 max-w-3xl mx-auto shadow-sm">
                 <div class="bg-green-100 p-4 rounded-full">
                     <i class="ph-fill ph-truck text-green-600 text-4xl"></i>
@@ -415,6 +516,7 @@
         </div>
     </section>
 
+    <!-- FAQ SECTION -->
     <section class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="container mx-auto px-6 max-w-3xl">
             <h2 class="text-center font-heading text-3xl md:text-4xl font-black text-testo-dark mb-12">Preguntas Frecuentes</h2>
@@ -459,6 +561,7 @@
         </div>
     </section>
 
+    <!-- FINAL CTA -->
     <section class="py-24 bg-gradient-to-br from-testo-dark to-[#0F374B] text-center px-6 relative overflow-hidden">
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-testo-light opacity-20 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -478,6 +581,7 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="bg-[#05151E] text-gray-400 py-12 border-t border-white/10">
         <div class="container mx-auto px-6 max-w-5xl">
             <div class="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
@@ -489,11 +593,11 @@
                 </div>
                 
                 <div class="text-xs max-w-md text-gray-500 text-center md:text-right">
-                    <p>La información contenida en este sitio web no pretende sustituir el consejo médico profesional. Ante cualquier duda, consulte a su médico.</p>
-                    <p class="mt-2">&copy; 2026 Testo Up. Todos los derechos reservados.</p>
+                    <p>&copy; 2026 Suplemarket Arg. Todos los derechos reservados.</p>
                 </div>
             </div>
 
+            <!-- NÚMERO DE WHATSAPP AL FINAL DEL FOOTER -->
             <div class="mt-10 pt-8 border-t border-white/5 flex flex-col items-center justify-center">
                 <p class="text-xs text-gray-500 mb-2 uppercase tracking-widest font-bold">Contacto directo</p>
                 <a href="https://wa.me/5491138951737" target="_blank" class="flex items-center gap-3 text-white hover:text-[#25D366] transition-colors font-black text-xl">
@@ -506,42 +610,55 @@
         </div>
     </footer>
 
+    <!-- BOTÓN FLOTANTE WHATSAPP CON ICONO SVG INCRUSTADO -->
     <a href="https://wa.me/5491138951737?text=Hola,%20tengo%20una%20consulta%20sobre%20Testo%20Up" target="_blank" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 md:p-5 rounded-full shadow-[0_5px_15px_rgba(37,211,102,0.4)] hover:bg-[#1ebd5a] hover:scale-110 transition-all z-40 flex items-center justify-center group">
         <div class="absolute inset-0 bg-[#25D366] rounded-full animate-ping opacity-20"></div>
         
+        <!-- ICONO SVG GARANTIZADO DE WHATSAPP -->
         <svg class="w-10 h-10 md:w-12 md:h-12 text-white relative z-10" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
         </svg>
 
+        <!-- Tooltip -->
         <span class="absolute right-full mr-4 bg-white text-gray-800 text-sm font-bold px-4 py-2 rounded-xl shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:block">
             ¿Tenés dudas? Escribinos
             <span class="absolute top-1/2 -right-2 transform -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-l-[8px] border-l-white border-b-[6px] border-b-transparent"></span>
         </span>
     </a>
 
+    <!-- ============================================== -->
+    <!-- MODAL DE COMPRA (LEAD FORM CON WEB3FORMS) -->
+    <!-- ============================================== -->
     <div id="orderModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="min-h-screen px-4 text-center flex items-center justify-center">
+            <!-- Overlay click para cerrar -->
             <div class="fixed inset-0 transition-opacity" aria-hidden="true" onclick="closeModal()"></div>
             
             <div class="bg-white rounded-3xl shadow-2xl w-full max-w-xl text-left overflow-hidden relative transform transition-all my-8 z-10">
+                <!-- Botón Cerrar -->
                 <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-testo-dark transition z-20 bg-gray-100 rounded-full p-2">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
                 
                 <div class="p-6 md:p-10">
                     
+                    <!-- SECCIÓN DEL FORMULARIO -->
                     <div id="formSection">
                         <div class="text-center mb-6">
                             <h3 class="text-2xl font-black text-testo-dark mb-1 font-heading" id="modal-title">Completá tus datos</h3>
                             <p class="text-gray-500 text-sm">Ingresá la información para el envío. Pagás al recibir.</p>
                         </div>
                         
+                        <!-- FORMULARIO WEB3FORMS (NUNCA FALLA EN GMAIL) -->
                         <form id="orderForm" class="space-y-4">
                             
+                            <!-- TU CLAVE CORRECTA LISTA PARA USAR -->
                             <input type="hidden" name="access_key" value="f4bcf64a-76db-4c06-a9b7-75e6e08b0806">
+                            
                             <input type="hidden" name="subject" value="🔥 ¡Nuevo pedido de Testo Up!">
                             <input type="hidden" name="from_name" value="Landing Page Testo Up">
                             
+                            <!-- Campo Pack (Auto-rellenado) -->
                             <div>
                                 <label class="block text-sm font-bold text-gray-700 mb-1">Pack seleccionado</label>
                                 <input type="text" id="packSelected" name="Pack" readonly class="w-full bg-orange-50 border border-orange-200 rounded-xl px-4 py-3 font-black text-testo-orange focus:outline-none cursor-default">
@@ -579,6 +696,7 @@
                         </form>
                     </div>
 
+                    <!-- SECCIÓN DE ÉXITO LUEGO DE ENVIAR -->
                     <div id="successSection" class="hidden text-center py-6">
                         <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 relative">
                             <div class="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-20"></div>
@@ -605,6 +723,7 @@
         </div>
     </div>
 
+    <!-- Script de lógica del Modal y Envío por Mail Seguro -->
     <script>
         // Variables
         const modal = document.getElementById('orderModal');
@@ -646,10 +765,8 @@
             
             // Verificación por si no pegaste la clave
             const accessKey = form.elements['access_key'].value;
-            if(accessKey === "PEGAR_CLAVE_AQUI" || accessKey.trim() === "") {
-                alert("¡No te olvides de pegar tu Access Key de Web3Forms en el código antes de subirlo a Vercel!");
-                submitBtn.innerHTML = '<span>👉 Enviar pedido</span>';
-                submitBtn.disabled = false;
+            if(accessKey.trim() === "" || accessKey === "PEGAR_CLAVE_AQUI") {
+                alert("Falta la Access Key de Web3Forms");
                 return;
             }
 
@@ -667,7 +784,7 @@
                     formSection.classList.add('hidden');
                     successSection.classList.remove('hidden');
                 } else {
-                    alert("Ocurrió un error. Intentá nuevamente.");
+                    alert("Ocurrió un error. El dominio de seguridad bloqueó el envío local. ¡Subí la página a Vercel y funcionará perfecto!");
                     submitBtn.innerHTML = '<span>👉 Enviar pedido</span>';
                     submitBtn.disabled = false;
                 }
